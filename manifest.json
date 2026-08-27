@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.rookepoole.system-pulse",
+  "name": "System Pulse",
+  "version": "1.0.0",
+  "author": "Rooke Poole",
+  "license": "MIT",
+  "description": "A quiet read-only pulse for load, memory, and root-disk pressure.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "System Pulse",
+    "description": "Read-only load, memory, and disk pressure.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
